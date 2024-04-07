@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Maze Runner",
+      "categoria": "azione",
+      "completato": false
+    },
+    {
+      "id": 2,
+      "title": "Love and Monsters",
+      "categoria": "fantascenza",
+      "completato": false
+    },
+    {
+      "id": 3,
+      "title": "Il nostro pianeta",
+      "categoria": "documentari",
+      "completato": false
+    },
+    {
+      "title": "Dragon Trainer",
+      "categoria": "animazione",
+      "completato": false,
+      "id": 5
+    }
+  ]
+}

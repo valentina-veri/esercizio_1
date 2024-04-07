@@ -1,0 +1,16 @@
+<h3>Nuovo film da vedere</h3>
+<hr>
+
+<form (ngSubmit)="aggiungiTask()">
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Titolo</label>
+        <input [(ngModel)]="nuovoTask.title" name="titolo" type="text" class="form-control" id="exampleFormControlInput1" placeholder="titolo">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Categoria</label>
+        <input [(ngModel)]="nuovoTask.categoria" name="categoria"  type="text" class="form-control" id="exampleFormControlInput2" placeholder="titolo">
+    </div>
+    <button type="submit" class="btn 
+    btn-primary">Aggiungi</button>
+</form>

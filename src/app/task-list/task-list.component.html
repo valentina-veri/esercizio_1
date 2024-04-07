@@ -1,0 +1,17 @@
+<h3 class="flex-column">Lista film da vedere</h3>
+<hr>
+<a [routerLink]="['/prodotti', 'nuovo']" class="btn btn-primary mb-3">Nuovo film</a>
+<ul class="list-group">
+  <li *ngFor="let t of tasks" class="list-group-item"><a [routerLink]="['/prodotti', t.id]">{{t.title}}</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
